@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+smartcli/__init__.py
+smartcli/dashboard.py
+smartcli/main.py
+smartcli.egg-info/PKG-INFO
+smartcli.egg-info/SOURCES.txt
+smartcli.egg-info/dependency_links.txt
+smartcli.egg-info/entry_points.txt
+smartcli.egg-info/requires.txt
+smartcli.egg-info/top_level.txt

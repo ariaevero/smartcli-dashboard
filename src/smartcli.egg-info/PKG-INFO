@@ -1,0 +1,85 @@
+Metadata-Version: 2.4
+Name: smartcli
+Version: 0.1.0
+Summary: Smart CLI utility with Streamlit dashboard
+Author: Aria Evero
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: typer[all]
+Requires-Dist: psutil
+Requires-Dist: streamlit
+
+## 🚀 smartcli-dashboard
+
+**SmartCLI Dashboard** is a lightweight command-line interface (CLI) tool designed to streamline data logging, system monitoring, or any custom workflow you want to automate. Whether you're building a backend utility or a dev tool, SmartCLI gives you a structured, scriptable dashboard to work with.
+
+---
+
+### 📦 Features
+
+- ✅ Modular CLI architecture for easy extension
+- 📊 Real-time logging and status updates
+- 🔧 Configurable commands and workflows
+- 🧪 Built-in support for testing and debugging
+- 🌐 Git integration for version control
+
+---
+
+### 🛠️ Installation
+
+Make sure you have Python 3.7+ installed.
+
+```bash
+git clone https://github.com/ariaevero/smartcli-dashboard.git
+cd smartcli-dashboard
+pip install -r requirements.txt
+```
+
+---
+
+### ⚙️ Usage
+
+Run the CLI tool with:
+
+```bash
+python smartcli.py
+```
+
+You can customize commands, add modules, or integrate with other tools by editing the `config.json` or extending the core script.
+
+---
+
+### 📁 Project Structure
+
+```plaintext
+smartcli-dashboard/
+├── smartcli.py
+├── config.json
+├── README.md
+├── requirements.txt
+└── modules/
+    └── logger.py
+```
+
+---
+
+### 🧪 Testing
+
+To run tests:
+
+```bash
+pytest tests/
+```
+
+---
+
+### 🙌 Contributing
+
+Pull requests are welcome! If you have ideas for new modules or want to improve performance, feel free to fork and submit a PR.
+
+---
+
+### 📄 License
+
+This project is licensed under the MIT License.
+

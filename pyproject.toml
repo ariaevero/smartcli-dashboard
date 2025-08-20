@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartcli"
+version = "0.1.0"
+description = "Smart CLI utility with Streamlit dashboard"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Aria Evero" }
+]
+dependencies = [
+    "typer[all]",
+    "psutil",
+    "streamlit"
+]
+
+[project.scripts]
+smartcli = "smartcli.main:app"
